@@ -1,6 +1,6 @@
 package Books;
 
-import Library;
+import Library.Library;
 
 public class Fiction extends Book{
     public Fiction(String title, String author, Library bookOrigin) {

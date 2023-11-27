@@ -1,8 +1,8 @@
 package Books;
-
+import Library.*;
 public class Book {
-    private final String title;
-    private final String author;
+    public final String title;
+    public final String author;
     private final Library bookOrigin;
 
     public Book(String title, String author, Library bookOrigin) {
